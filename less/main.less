@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Aquawax';
+    src: url('Aquawax-Light.woff2') format('woff2'),
+        url('Aquawax-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax';
+    src: url('Aquawax-Medium.woff2') format('woff2'),
+        url('Aquawax-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquawax';
+    src: url('Aquawax-Black.woff2') format('woff2'),
+        url('Aquawax-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('AvenirLTStd-Black.woff2') format('woff2'),
+        url('AvenirLTStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('AvenirLTStd-Book.woff2') format('woff2'),
+        url('AvenirLTStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('AvenirLTStd-Roman.woff2') format('woff2'),
+        url('AvenirLTStd-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Ajustes generales de la plantilla */
+.whb-scroll-stick .woodmart-logo img {  
+    padding-top: 0;
+    transform: scale(1.6) translateY(17px);
+}
+@import "vars";
+
+
+
+h2 {
+    text-align: center;
+}
+
+/*Ajuste de FullWidth*/
+
+.page-template {
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+/*Esquema por defecto para las secciones*/
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    .col {
+        width: 50%;
+    }
+    .col2 {
+        width: 33%;
+    }
+}
+
+/*Ajuste general*/
+
+.template-section {
+   
+        padding: 50px 0;
+    
+
+    .contenedor {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .col {
+        min-height: 500px;
+        padding: 60px;
+    }
+    
+    h1 {
+        color: white;
+        font-family: 'Aquawax';
+        font-weight: bold;
+        font-size: 3.1em;
+        
+    }
+
+    h2 {
+        color: @azul;
+        font-family: 'Aquawax';
+        font-size: 2.5em;
+        font-weight: bold;
+        line-height: 1.3em;
+
+    }
+
+    p,
+    ul {
+        color: @gris_oscuro;
+        font-size: 1.2em;
+       font-family: 'Avenir LT Std';
+    }
+
+    ul {
+        li {
+            position: relative;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            &::before {
+                content: "•";
+                color: @azul;
+                padding-right: 10px;
+                position: absolute;
+                left: -15px;
+            }
+        }
+
+        &.azul {
+            li {
+                &::before {
+                    color: @azul
+                }
+            }
+        }
+    }
+
+
+
+    .txt-azul {
+        color: @azul;
+    }
+
+    .btn {
+        transition: all 0.3s ease-in-out;
+        font-family: 'Aquawax';
+            text-transform: none;
+            font-size: 1.2em;
+         -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 5px;
+            background: @azul_claro;
+            color: #fff;
+            &:hover {
+                background: @azul;
+            }
+        
+    }
+}
+
+#slider {
+   background: url(../img/slider.png) no-repeat center;
+     background-attachment: fixed;
+    padding: 170px 0;
+    h1, p, .btn {
+        margin-left: 150px;
+    }
+    p {
+       color: white;
+    font-size: 2.7em;
+            margin-top: -25px;
+    }
+    .btn {
+            margin-top: -25px;
+    }
+}
+#buscar {
+    padding: 20px 0;
+      background-color: @azul;
+  background-image: -webkit-linear-gradient(30deg, @azul 40%, @gris 0%);
+    span {
+        font-size: 2.7em;
+        color: white;
+        text-align: center;
+            position: relative;
+    left: 250px;
+        &.azul {
+            color: @azul;
+            left: 0px;
+        }
+    }
+    .col {
+    min-height: inherit;
+    padding: 0px;
+     
+}
+ 
+}
+
+.buscar {
+        max-width: 400px;
+           ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+visibility: hidden;
+}
+::-moz-placeholder { /* Firefox 19+ */
+color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+ color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+    .searchform input[type=text] {
+        visibility: visible;
+    }
+    background-color: @gris_claro;
+}
+#maquila {
+    padding: 100px 0;
+    text-align: center;
+    background-color: @gris_claro;
+    p {
+      position: relative;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 600px;
+    }
+}
+#somos {
+   background-color: white;
+     text-align: center;
+    padding: 0;
+    img {
+            position: relative;
+    float: right;
+            margin-top: -51px;
+    }
+    .col {
+        padding: 0; 
+        min-height: auto;
+        
+    }
+    .quienes {
+           margin-left: -261px;
+    margin-top: 50px;
+    }
+    p {
+      position: relative;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 340px;
+    }
+  
+}
+#contacto {
+      background: url(../img/contacto.png) no-repeat center;
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+ color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+    img {
+            margin-top: -140px;
+        position: absolute;
+    }
+    p {
+         color: white;
+     
+        &.primero {
+              font-weight: bold;
+                margin-top: 200px;
+        }
+    }
+    
+    .btn {
+           text-align: right;
+    position: relative;
+    float: right;
+            background-color: #30315f;
+    font-weight: bold;
+               -webkit-border-radius: 10px!important;
+  -moz-border-radius: 10px!important;
+  border-radius: 8px!important;
+        &:hover {
+                background-color: @azul_claro;
+            }
+    }
+    
+
+
+
+}
+    .caldera-grid .form-control {
+         -webkit-border-radius: 10px!important;
+  -moz-border-radius: 10px!important;
+  border-radius: 8px!important;
+        background-color: @gris_contacto!important;
+            box-shadow: inset 0 1px 1px rgba(0,0,0,0.55)!important;
+            border: none!important;
+        
+    
+    }
+
+.woodmart-prefooter {
+    background-color: #fff;
+    padding-bottom: 0px;
+}
