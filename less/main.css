@@ -318,3 +318,87 @@ h2 {
   padding: 100px 50px;
   background-color: #f4f2f2;
 }
+/**QUIENES SOMOS*/
+#quienes_somos {
+  padding: 0px 0;
+  background: #0c98d7;
+}
+#quienes_somos .fondo {
+  background: url(../img/quienes_somos.png) no-repeat;
+  max-width: none;
+}
+#quienes_somos p {
+  color: white;
+  max-width: 400px;
+}
+#quienes_somos .col_quienes {
+  position: relative;
+  right: -200px;
+}
+#calidad p {
+  max-width: 300px;
+  margin-top: 150px;
+}
+#calidad p span {
+  color: #0c98d7;
+  font-weight: bold;
+}
+#mision h2,
+#vision h2 {
+  margin-top: 50px;
+  text-align: left;
+}
+#mision p,
+#vision p {
+  margin-top: 0px;
+  max-width: 300px;
+}
+#mision span,
+#vision span {
+  color: #0c98d7;
+  font-weight: bold;
+}
+#vision {
+  background: url(../img/vision_fondo.png) no-repeat center;
+}
+#vision .colvision {
+  position: relative;
+  right: -120px;
+}
+/***MAQUILA**/
+#maquila_slider {
+  padding: 0px 0;
+  background: #0c98d7;
+  text-align: left;
+}
+#maquila_slider .fondo {
+  background: url(../img/maquila_slider.png) repeat;
+  max-width: none;
+}
+#maquila_slider p {
+  color: white;
+  max-width: 400px;
+  text-align: left;
+}
+#maquila_slider .col_quienes {
+  position: relative;
+  right: -200px;
+}
+#maquila_planta {
+  background-color: #dfdede;
+  text-align: center;
+  padding: 100px 0;
+}
+#maquila_planta p {
+  padding: 20px 0;
+}
+#produccion {
+  min-width: 400px;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+#produccion span {
+  color: #0c98d7;
+  font-weight: bold;
+}
