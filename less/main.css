@@ -240,6 +240,10 @@ h2 {
   /* Firefox 18- */
   color: white;
 }
+#contacto input,
+#contacto textarea {
+  margin-top: 10px;
+}
 #contacto img {
   margin-top: -140px;
   position: absolute;
@@ -401,4 +405,46 @@ h2 {
 #produccion span {
   color: #0c98d7;
   font-weight: bold;
+}
+#ficha {
+  background-color: #f4f2f2;
+}
+#ficha hr {
+  color: #dfdddd;
+  width: 700px;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+#ficha h2 {
+  font-family: 'Avenir LT Std';
+  margin-top: 80px;
+  text-align: left;
+}
+#ficha strong {
+  font-weight: bold;
+}
+#ficha p {
+  max-width: 700px;
+}
+#ficha img.prin {
+  position: relative;
+  float: right;
+}
+#ficha .formula {
+  margin-left: 150px;
+}
+#ficha .formula h2 {
+  margin-top: 30px;
+}
+#ficha .btn {
+  background-color: #30315f;
+  font-weight: bold;
+  -webkit-border-radius: 10px!important;
+  -moz-border-radius: 10px!important;
+  border-radius: 8px!important;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#ficha .btn:hover {
+  background-color: #0c98d7;
 }
