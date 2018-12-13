@@ -7,10 +7,10 @@
 
     <section id="quienes_somos" class="template-section">
       
-        <div class="grid">
+        <div class="grid invertido">
             <div class="col col_quienes">
                 <h1>¿Quiénes<br>Somos?</h1>
-                <p>
+                <p class="primera">
                     Laboratorios PROSERVET se fundó en el 2002,con la misión de ofrecer productos farmacéuticos para uso animal en aves y cerdos.</p>
 
                 <p>Desde que inicia operaciones PROSERVET se ha empeñado en crear socios comerciales, y acompañarlos durante todo el proceso venta y post venta.
@@ -64,7 +64,7 @@
         <section id="vision" class="template-section">
 
         <div class="contenedor">
-            <div class="grid">
+            <div class="grid invertido">
                 <div class="col colvision">
                    <h2>Visión</h2>
                     <p >

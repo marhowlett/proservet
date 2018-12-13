@@ -6,8 +6,7 @@
 
    <section id="slider_catalogo" class="template-section">
     <h1>Nuestros Productos</h1>
-    <p>¿Qué producto necesitas?</p>
-    <?php echo do_shortcode( '[vc_wp_search el_id="buscardor" el_class="buscar2"]' ); ?>
+   <div class="buscar2"><?php echo do_shortcode( '[smart_search id="2"]' ); ?></div>
 </section>
 
   <section id="ficha" class="template-section">

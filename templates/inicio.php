@@ -20,8 +20,8 @@
                 necesitas?</span>
                </div>
                 <div class="col">
-                <span class="azul">Buscar:</span>
-                <?php echo do_shortcode( '[vc_wp_search el_id="buscardor" el_class="buscar"]' ); ?>
+            
+                <div class="buscar"><?php echo do_shortcode( '[smart_search id="1"]' ); ?></div>
                </div>
      </div>
     </section >

@@ -162,27 +162,13 @@ h2 {
   padding: 0px;
 }
 .buscar {
+  margin-top: 40px;
+  border-radius: 16px!important;
   max-width: 400px;
   background-color: #f4f2f2;
 }
-.buscar ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  visibility: hidden;
-}
-.buscar ::-moz-placeholder {
-  /* Firefox 19+ */
-  color: white;
-}
-.buscar :-ms-input-placeholder {
-  /* IE 10+ */
-  color: white;
-}
-.buscar :-moz-placeholder {
-  /* Firefox 18- */
-  color: white;
-}
-.buscar .searchform input[type=text] {
-  visibility: visible;
+.buscar .ysm-search-widget-1 .search-field[type="search"] {
+  border: none;
 }
 #maquila {
   padding: 100px 0;
@@ -226,19 +212,19 @@ h2 {
 }
 #contacto ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: white;
+  color: hidden;
 }
 #contacto ::-moz-placeholder {
   /* Firefox 19+ */
-  color: white;
+  color: hidden;
 }
 #contacto :-ms-input-placeholder {
   /* IE 10+ */
-  color: white;
+  color: hidden;
 }
 #contacto :-moz-placeholder {
   /* Firefox 18- */
-  color: white;
+  color: hidden;
 }
 #contacto input,
 #contacto textarea {
@@ -282,6 +268,7 @@ h2 {
 }
 /****CATALOGO***********/
 #slider_catalogo {
+  padding: 80px 0;
   background: url(../img/slider_producto.png) no-repeat center;
   background-attachment: fixed;
 }
@@ -297,24 +284,11 @@ h2 {
 .buscar2 {
   padding: 0 190px;
 }
-.buscar2 ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  visibility: hidden;
-}
-.buscar2 ::-moz-placeholder {
-  /* Firefox 19+ */
-  color: hidden;
-}
-.buscar2 :-ms-input-placeholder {
-  /* IE 10+ */
-  color: hidden;
-}
-.buscar2 :-moz-placeholder {
-  /* Firefox 18- */
-  color: hidden;
-}
-.buscar2 .searchform input[type=text] {
-  visibility: visible;
+.buscar2 .ysm-search-widget-2 .search-field[type="search"] {
+  border-width: 1px;
+  font-weight: bold;
+  color: white;
+  border: none;
   border-radius: 16px!important;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.55) !important;
 }
@@ -393,8 +367,23 @@ h2 {
   text-align: center;
   padding: 100px 0;
 }
+#maquila_planta .grid {
+  padding-left: 230px;
+  padding-right: 230px;
+  padding-top: 40px;
+}
 #maquila_planta p {
   padding: 20px 0;
+}
+#maquila_planta p.letras {
+  margin-bottom: 11px;
+}
+#maquila_planta .col2 {
+  padding: 35px 45px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  max-width: 35%;
 }
 #produccion {
   min-width: 400px;
@@ -447,4 +436,177 @@ h2 {
 }
 #ficha .btn:hover {
   background-color: #0c98d7;
+}
+@media (max-width: 768px) {
+  .offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) {
+  /*Ajuste de logo al momento de hacer scroll*/
+  .whb-sticked .whb-general-header .woodmart-logo img {
+    transform: scale(1.6) translateY(11px);
+  }
+}
+@media screen and (max-width: 750px) {
+  /*LOGO*/
+  .whb-scroll-stick .woodmart-logo img {
+    padding-top: 0;
+    transform: scale(2) translateY(15px);
+  }
+  canvas {
+    touch-action: auto !important;
+  }
+  .scene-nav {
+    display: none;
+  }
+  /*Esquema por defecto para las secciones*/
+  .grid .col {
+    width: 100%;
+  }
+  .grid .col2 {
+    width: 100%;
+  }
+  .grid.invertido {
+    flex-wrap: wrap-reverse;
+  }
+  .template-section a.btn {
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    padding: 15px;
+    margin-left: 10px!important;
+    margin-right: 10px;
+  }
+  .template-section .col {
+    min-height: auto;
+    padding: 20px;
+  }
+  #slider_catalogo {
+    background: url(../img/responsive_productos.png) no-repeat center;
+    background-attachment: fixed;
+  }
+  #slider_catalogo .buscar2 {
+    padding: 0;
+  }
+  #ficha h2 {
+    margin-top: 10px;
+  }
+  #ficha hr {
+    width: 335px;
+  }
+  #ficha .formula {
+    margin-left: 10px;
+  }
+  #contacto {
+    background: url(../img/fondo_contacto.png) no-repeat center;
+  }
+  #contacto img {
+    max-width: 60%;
+    margin-top: -167px;
+    display: block;
+    margin: auto;
+    margin-top: -92px;
+    position: inherit;
+  }
+  #contacto p.primero {
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  /****MAQUILA**/
+  #maquila_slider .fondo {
+    background: url(../img/maquila_responsive.png) center repeat;
+    max-width: none;
+    padding: 350px 0;
+  }
+  #maquila_slider .col_quienes {
+    position: relative;
+    right: 0px;
+  }
+  #maquila_slider h1 {
+    margin-top: -220px;
+    text-align: center;
+  }
+  #maquila_slider p.primera {
+    margin-top: 169px;
+    padding: 30px 0;
+  }
+  #maquila_planta .grid {
+    padding-left: initial;
+    padding-right: initial;
+  }
+  #maquila_planta .col2 {
+    max-width: 90%;
+  }
+  #produccion {
+    min-width: 300px;
+    max-width: 300px;
+  }
+  /**QUIENES SOMOS*/
+  #quienes_somos .fondo {
+    background: url(../img/quienes_somos_responsive.png) no-repeat;
+    padding: 350px 0;
+    max-width: none;
+  }
+  #quienes_somos .col_quienes {
+    position: relative;
+    right: 0px;
+  }
+  #quienes_somos h1 {
+    margin-top: -220px;
+    text-align: center;
+  }
+  #quienes_somos p.primera {
+    margin-top: 169px;
+    padding: 30px 0;
+  }
+  #calidad p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #mision h2,
+  #vision h2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #mision p,
+  #vision p {
+    margin-top: 0px;
+    max-width: 300px;
+    text-align: center;
+  }
+  #vision .colvision {
+    right: initial;
+  }
+  #vision {
+    background-color: #f4f2f2;
+  }
+  #slider {
+    background: url(../img/slider_responsive.png) no-repeat center;
+  }
+  #slider h1,
+  #slider p,
+  #slider .btn {
+    margin-left: auto;
+    text-align: center;
+  }
+  #buscar {
+    padding: -29px 0;
+    background-image: -webkit-linear-gradient(30deg, #30315f 90%, #dfdede 0%);
+    padding-bottom: 15px;
+  }
+  #buscar span {
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-bottom: -38px;
+    left: auto;
+  }
+  #maquila p {
+    max-width: 300px;
+  }
+  #somos .quienes {
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
 }
