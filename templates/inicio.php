@@ -51,6 +51,4 @@ y personal calificado para cumplir con protocolos que garanticen la calidad fina
    
   <?php include 'contacto.php'; ?>
  
-<?php 
-    get_footer();
-?>
+
