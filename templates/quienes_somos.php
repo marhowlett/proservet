@@ -2,7 +2,7 @@
     /* Template Name: Quienes_Somos*/ 
     get_header();
 ?>
-
+ <div class="row_sec">
   
 
     <section id="quienes_somos" class="template-section">
@@ -84,7 +84,3 @@
 
   <?php include 'contacto.php'; ?>
 
-<?php 
-    get_footer();
-?>
-?>

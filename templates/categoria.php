@@ -9,7 +9,7 @@
 </section>
  <section id="categoria" class="template-section">
  <h2>Categorias</h2>
-  <?php echo do_shortcode('[vc_row][vc_column][product_categories orderby="date" order="ASC" columns="1" number="3" hide_empty="3" ids="21, 20, 22"][/vc_column][/vc_row]');
+  <?php echo do_shortcode('[vc_row][vc_column][product_categories orderby="date" order="ASC" columns="1" number="3" hide_empty="3" ids="17, 18, 19"][/vc_column][/vc_row]');
     ?>
 </section>
 
