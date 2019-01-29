@@ -5,12 +5,18 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	
 	<?php wp_head(); ?>
 	<script>document.documentElement.className = 'js';</script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script>
+		ScrollReveal({ duration: 10000 })
+	</script>
 </head>
 
 <body <?php body_class('demo-1'); ?>>

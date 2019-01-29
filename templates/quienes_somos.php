@@ -1,4 +1,5 @@
 <?php
+include 'animacion.php';
     /* Template Name: Quienes_Somos*/ 
     get_header();
 ?>
@@ -9,11 +10,11 @@
       
         <div class="grid invertido">
             <div class="col col_quienes">
-                <h1>¿Quiénes<br>Somos?</h1>
-                <p class="primera">
+                <h1  class="headline">¿Quiénes<br>Somos?</h1>
+                <p class="primera tagline">
                     Laboratorios PROSERVET se fundó en el 2002,con la misión de ofrecer productos farmacéuticos para uso animal en aves y cerdos.</p>
 
-                <p>Desde que inicia operaciones PROSERVET se ha empeñado en crear socios comerciales, y acompañarlos durante todo el proceso venta y post venta.
+                <p class="tagline">Desde que inicia operaciones PROSERVET se ha empeñado en crear socios comerciales, y acompañarlos durante todo el proceso venta y post venta.
                 </p>
             </div>
             <div class="col fondo">
@@ -31,7 +32,7 @@
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/calidad_confianza.png" alt="Acerca">
                 </div>
                 <div class="col">
-                    <p >
+                    <p class="tagline">
                        Nuestros productos ofrecen <span>calidad y confianza</span> a los productores agropecuarios, para el tranquilo desarrollo de sus animales.
                        
                     </p>
@@ -50,8 +51,8 @@
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mision.png" alt="Acerca">
                 </div>
                 <div class="col">
-                   <h2>Misión</h2>
-                    <p >
+                   <h2 class="headline">Misión</h2>
+                    <p class="tagline">
                      <span>PROSERVET</span>  es una empresa privada de capital 100% mexicano encargada de proveer salud animal con la mayor <span>tecnología y calidad</span>, brindando soluciones efectivas a un precio justo.
                     </p>
                   
@@ -66,8 +67,8 @@
         <div class="contenedor">
             <div class="grid invertido">
                 <div class="col colvision">
-                   <h2>Visión</h2>
-                    <p >
+                   <h2 class="headline">Visión</h2>
+                    <p class="tagline">
                      Ser una empresa líder en salud animal en el país, reconocida por trabajar con la mayor calidad y ética en el mercado.
                     </p>
                   

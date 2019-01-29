@@ -1,4 +1,5 @@
 <?php
+include 'animacion.php';
     /* Template Name: Maquila */ 
     get_header();
 ?>
@@ -7,10 +8,10 @@
       
         <div class="grid invertido">
             <div class="col col_quienes x">
-                <h1>Maquila</h1>
-                <p class="primera">Laboratorios Proservet en su división de maquila cuenta con una planta para la fabricación y un laboratorio de control de calidad.</p>
+                <h1 class="headline">Maquila</h1>
+                <p class="primera tagline">Laboratorios Proservet en su división de maquila cuenta con una planta para la fabricación y un laboratorio de control de calidad.</p>
 
-                <p>Contamos una amplia experiencia en la fabricación de un gran número de productos utilizados en la línea veterinaria y personal calificado para cumplir con protocolos que garanticen la calidad final de los productos.</p>
+                <p class="tagline">Contamos una amplia experiencia en la fabricación de un gran número de productos utilizados en la línea veterinaria y personal calificado para cumplir con protocolos que garanticen la calidad final de los productos.</p>
             </div>
             <div class="col fondo ">
                 
@@ -23,7 +24,7 @@
           
           <h2>Áreas de <br>
 Fabricación</h2>
-          <p>La planta de producción cuenta con capacidad <br>para producir líneas de:</p>
+          <p class="tagline">La planta de producción cuenta con capacidad <br>para producir líneas de:</p>
              <div class="grid ">
             <div class="col2">
            
@@ -62,8 +63,8 @@ Fabricación</h2>
     </section>
      <section id="produccion" class="template-section">
          <div class="contenedor">
-          <p>Todas las áreas de producción cuentan con tecnologías acordes con los requerimientos de la industria farmacéutica veterinaria.</p>
-          <p>Los principios de <span>ética, el respeto, la honestidad y la confiabilidad</span> garantizan que toda la información sea confidencial y exclusivamente suya. Usted podrá supervisar y auditar los procesos y tendrá seguridad en el cumplimiento de las entregas.</p>
+          <p class="tagline">Todas las áreas de producción cuentan con tecnologías acordes con los requerimientos de la industria farmacéutica veterinaria.</p>
+          <p class="tagline">Los principios de <span>ética, el respeto, la honestidad y la confiabilidad</span> garantizan que toda la información sea confidencial y exclusivamente suya. Usted podrá supervisar y auditar los procesos y tendrá seguridad en el cumplimiento de las entregas.</p>
          </div>
     </section>
 
