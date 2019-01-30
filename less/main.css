@@ -236,22 +236,6 @@ h2 {
 #contacto {
   background: url(../img/contacto.png) no-repeat center;
 }
-#contacto ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  color: hidden;
-}
-#contacto ::-moz-placeholder {
-  /* Firefox 19+ */
-  color: hidden;
-}
-#contacto :-ms-input-placeholder {
-  /* IE 10+ */
-  color: hidden;
-}
-#contacto :-moz-placeholder {
-  /* Firefox 18- */
-  color: hidden;
-}
 #contacto input,
 #contacto textarea {
   margin-top: 10px;
@@ -280,13 +264,21 @@ h2 {
 #contacto .btn:hover {
   background-color: #0c98d7;
 }
+.caldera-grid .form-control,
+.caldera-grid output {
+  color: white!important;
+}
 .caldera-grid .form-control {
+  color: white!important;
   -webkit-border-radius: 10px!important;
   -moz-border-radius: 10px!important;
   border-radius: 8px!important;
   background-color: #a4a2a2 !important;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.55) !important;
   border: none!important;
+}
+.caldera-grid .form-control::placeholder {
+  color: white!important;
 }
 .woodmart-prefooter {
   background-color: #fff;

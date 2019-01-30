@@ -286,18 +286,7 @@ margin-top: 40px;
 }
 #contacto {
       background: url(../img/contacto.png) no-repeat center;
-        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-color: hidden;
-}
-::-moz-placeholder { /* Firefox 19+ */
-color: hidden;
-}
-:-ms-input-placeholder { /* IE 10+ */
- color: hidden;
-}
-:-moz-placeholder { /* Firefox 18- */
-color: hidden;
-}
+
     input,textarea {
         margin-top: 10px;
     }
@@ -333,16 +322,23 @@ color: hidden;
 
 
 }
+.caldera-grid .form-control, .caldera-grid output {
+ color: white!important;
+}
     .caldera-grid .form-control {
+		  color: white!important;
          -webkit-border-radius: 10px!important;
   -moz-border-radius: 10px!important;
   border-radius: 8px!important;
         background-color: @gris_contacto!important;
             box-shadow: inset 0 1px 1px rgba(0,0,0,0.55)!important;
             border: none!important;
-        
+      
     
     }
+.caldera-grid .form-control::placeholder {
+	color: white!important;
+}
 
 .woodmart-prefooter {
     background-color: #fff;
