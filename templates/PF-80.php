@@ -65,7 +65,7 @@ destinados para el consumo humano.</p>
                 <h2 class="headline">ALMACENAMIENTO.</h2>
                 <p class="tagline">Almacenar a temperatura ambiente, en un lugar fresco, seco y protegido de
 la luz solar.</p>
-                <a href="http://proservet.mx/wp-content/themes/informe.pdf" class="btn">Descarga la ficha técnica</a>
+                <a href="http://proservet.mx/wp-content/uploads/MEDIA_CARTA_Prontuario_PROSERVET-ilovepdf-compressed.pdf" class="btn">Descarga la ficha técnica</a>
                 </div>
                  
         </div>

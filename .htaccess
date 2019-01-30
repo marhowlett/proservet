@@ -1,0 +1,24 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+</IfModule>
+
+# END WordPress
+## WP Defender - Prevent information disclosure ##
+<FilesMatch "\.(txt|md|exe|sh|bak|inc|pot|po|mo|log|sql)$">
+Order allow,deny
+Deny from all
+</FilesMatch>
+<Files robots.txt>
+Allow from all
+</Files>
+<Files ads.txt>
+Allow from all
+</Files>
+## WP Defender - End ##
