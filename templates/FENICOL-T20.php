@@ -30,7 +30,9 @@ include 'animacion.php';
                 </div>
                 </div>
                 <div class="formula">
-                <h2 class="headline">Cada 100ml. de <strong>FENICOL-T20</strong> contiene:<br>
+                <h2 class="headline">COMPOSICIÓN</h2>
+                
+                <p>Cada 100ml. de <strong>FENICOL-T20</strong> contiene:<br>
 Tianfenicol .......................................20g.<br>
 Vehículo C.B.P. .............................100ml.</p>
                 <hr>

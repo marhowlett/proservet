@@ -102,7 +102,7 @@ h2 {
   color: white;
   font-family: 'Aquawax';
   font-weight: bold;
-  font-size: 3.1em;
+  font-size: 68px;
 }
 .template-section h2 {
   color: #30315f;
@@ -340,7 +340,8 @@ h2 {
 }
 #quienes_somos .col_quienes {
   position: relative;
-  right: -200px;
+  padding-left: 200px;
+  padding-right: 50px;
 }
 #calidad p {
   max-width: 300px;
@@ -389,7 +390,8 @@ h2 {
 }
 #maquila_slider .col_quienes {
   position: relative;
-  right: -200px;
+  padding-left: 200px;
+  padding-right: 50px;
 }
 #maquila_planta {
   background-color: #dfdede;
@@ -425,7 +427,7 @@ h2 {
   font-weight: bold;
 }
 #ficha {
-  background-color: #f4f2f2;
+  background-color: white;
 }
 #ficha hr {
   color: #dfdddd;
@@ -514,6 +516,9 @@ h2 {
     min-height: auto;
     padding: 20px;
   }
+  .template-section h1 {
+    font-size: 36px;
+  }
   #slider_catalogo {
     background: url(../img/responsive_productos.png) no-repeat center;
     background-attachment: fixed;
@@ -553,11 +558,13 @@ h2 {
   }
   #maquila_slider .col_quienes {
     position: relative;
-    right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   #maquila_slider h1 {
-    margin-top: -220px;
+    margin-bottom: -187px;
     text-align: center;
+    opacity: initial!important;
   }
   #maquila_slider p.primera {
     margin-top: 169px;
@@ -582,7 +589,8 @@ h2 {
   }
   #quienes_somos .col_quienes {
     position: relative;
-    right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   #quienes_somos h1 {
     margin-top: -220px;
