@@ -7,10 +7,10 @@
 
                 <div class="col">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/proservet.png" alt="Logo">
-                    <p class="primero tagline">
+                    <p class="primero">
                           52-777-319-40-90 
                     </p>
-                    <p class="tagline">
+                    <p>
                         Carretera Yautepec Jojutla #9 Col. <br> Atlihuayan Yautepec Morelos <br> C.P.62730  
                    
                     </p>
@@ -25,9 +25,3 @@
             </div>
         </div>
     </section>
-    
-   <script>
-		ScrollReveal().reveal('.headline')
-		ScrollReveal().reveal('.tagline', { delay: 500 })
-		ScrollReveal().reveal('.punchline', { delay: 2000 })
-	</script>

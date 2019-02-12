@@ -1,10 +1,9 @@
 <?php
 require_once get_stylesheet_directory() . "/class.wp-auto-theme-update.php";
 add_action( 'wp_enqueue_scripts', 'woodmart_child_enqueue_styles', 1000 );
-@ini_set( 'upload_max_size' , '128M' );
-@ini_set( 'post_max_size', '128M');
-@ini_set( 'max_execution_time', '300' );
+
 function woodmart_child_enqueue_styles() {
+  
 	$version = woodmart_get_theme_info( 'Version' );
 	
 	if( woodmart_get_opt( 'minified_css' ) ) {
@@ -12,7 +11,22 @@ function woodmart_child_enqueue_styles() {
 	} else {
 		wp_enqueue_style( 'woodmart-style', get_template_directory_uri() . '/style.css', array('bootstrap'), $version );
 	}
-    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('bootstrap'), $version );
+    
+     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('bootstrap'), $version );
+    
  
+ 
+    
+
 }
+
+function theme_js() {
+    wp_enqueue_script( 'scrollreveal', get_stylesheet_directory_uri() . '/js/scrollreveal.min.js', array( 'jquery' ), '1.0', true );
+    wp_enqueue_script( 'main_js', get_stylesheet_directory_uri() . '/js/main.min.js', array( 'jquery' ), '1.0', true );
+}
+
+
+add_action('wp_enqueue_scripts', 'woodmart_child_enqueue_styles');
+
+
 
