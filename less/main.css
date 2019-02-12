@@ -74,65 +74,6 @@ h2 {
   max-width: 100%;
   width: 100%;
 }
-@keyframes close-line-one-out {
-  0%,
-  50% {
-    transform: translateX(0);
-  }
-  75% {
-    transform: translateX(50px);
-  }
-  76% {
-    transform: translateX(50px) translateY(50px);
-  }
-  100% {
-    transform: rotate(45deg);
-  }
-}
-@keyframes close-line-one-in {
-  0%,
-  20% {
-    transform: rotate(45deg);
-  }
-  60% {
-    transform: translateX(50px) translateY(50px) rotate(45deg);
-  }
-  61% {
-    transform: translateX(50px);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-@keyframes close-line-two-out {
-  0%,
-  50% {
-    transform: rotate(90deg);
-  }
-  75% {
-    transform: translateY(-50px) rotate(90deg);
-  }
-  76% {
-    transform: translateY(-50px) translateX(50px) rotate(90deg);
-  }
-  100% {
-    transform: rotate(135deg);
-  }
-}
-@keyframes close-line-two-in {
-  0% {
-    transform: rotate(135deg);
-  }
-  50% {
-    transform: translateY(-50px) translateX(50px) rotate(135deg);
-  }
-  51% {
-    transform: translateY(-50px) rotate(90deg);
-  }
-  100% {
-    transform: rotate(90deg);
-  }
-}
 /*Esquema por defecto para las secciones*/
 .grid {
   display: flex;
