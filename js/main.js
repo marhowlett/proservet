@@ -108,7 +108,7 @@ sr.reveal('.template-section h3', subtituloH3);
 sr.reveal('.template-section h4', subtituloH4);
 sr.reveal('.template-section img, .template-section input', imagenes);
 sr.reveal('.template-section p, .template-section ul', contenido);
-sr.reveal('.template-section .boton', contenido);
+sr.reveal('.template-section .btn', contenido);
 
 function addCommasToNum(num) {
     return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")

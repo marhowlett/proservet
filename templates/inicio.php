@@ -2,15 +2,15 @@
     /* Template Name: Inicio */ 
     get_header();
 ?>
-    <section id="slider" class="template-section">
+    <section id="slider" class="template-section animacion ">
        
         <div class="contenedor">
-          
+          <div class="animacion">
               <h1>¡Protege a tus animales!</h1>
               <p>con nuestros productos</p>
                <a href="#" class="btn">Me interesa</a>
             </div>
-
+</div>
     </section>
     <section id="buscar" class="template-section">
        <div class="grid">
