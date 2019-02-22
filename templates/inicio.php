@@ -8,7 +8,7 @@
           <div class="animacion">
               <h1>¡Protege a tus animales!</h1>
               <p>con nuestros productos</p>
-               <a href="#" class="btn">Me interesa</a>
+               <a href="http://proservet.mx/catalogo/" class="btn">Me interesa</a>
             </div>
 </div>
     </section>
@@ -30,7 +30,7 @@
           <h2>Maquila</h2>
           <p>Laboratorios Proservet en su división de maquila cuenta con una amplia experiencia en la fabricación de un gran número de productos utilizados en la línea veterinaria 
 y personal calificado para cumplir con protocolos que garanticen la calidad final de los productos.</p>
-         <a href="#" class="btn">Saber más</a>
+         <a href="http://proservet.mx/maquila/" class="btn">Saber más</a>
     </section>
     <section id="somos" class="template-section">
          
@@ -43,7 +43,7 @@ y personal calificado para cumplir con protocolos que garanticen la calidad fina
                  <h2>¿Quiénes Somos?</h2>
           <p>Desde que inicia operaciones PROSERVET se ha empeñado en crear socios comerciales, y acompañarlos durante todo el proceso venta y post venta.</p>
           <p>Nuestros productos ofrecen calidad y confianza a los productores pecuarios, para el tranquilo desarrollo de sus animales.</p>
-         <a href="#" class="btn">Me interesa</a>
+         <a href="http://proservet.mx/quienes-somos/" class="btn">Me interesa</a>
                </div>
      </div>
         
