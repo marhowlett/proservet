@@ -69,3 +69,6 @@ Fabricación</h2>
 
 
 <?php include 'contacto.php'; ?>
+<?php 
+    get_footer();
+?>

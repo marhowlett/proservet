@@ -15,3 +15,6 @@
 
 
 <?php include 'contacto.php'; ?>
+<?php 
+    get_footer();
+?>
