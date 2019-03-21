@@ -10,7 +10,7 @@
                 <h1>Maquila</h1>
                 <p class="primera">Laboratorios Proservet en su división de maquila cuenta con una planta para la fabricación y un laboratorio de control de calidad.</p>
 
-                <p>Contamos una amplia experiencia en la fabricación de un gran número de productos utilizados en la línea veterinaria y personal calificado para cumplir con protocolos que garanticen la calidad final de los productos.</p>
+                <p>Contamos una amplia experiencia en la fabricación de un gran número de productos utilizados en la línea veterinaria. Personal calificado para cumplir con protocolos que garanticen la calidad final de los productos.</p>
             </div>
             <div class="col fondo ">
                 

@@ -5,6 +5,9 @@ body.tax-product_cat .whb-col-right {
 .main-page-wrapper {
   padding-top: 0px;
 }
+.title-size-default .entry-title {
+  font-size: 34px;
+}
 .search-button .search-button-icon:before {
   color: white;
 }
@@ -153,9 +156,7 @@ h2 {
   background: #30315f;
 }
 #slider {
-  background: url(../img/slider.png) no-repeat center;
-  background-attachment: fixed;
-  padding: 170px 0;
+  padding: 0px;
 }
 #slider h1,
 #slider p,
@@ -472,37 +473,56 @@ h2 {
   background-color: #0c98d7;
 }
 @media screen and (min-width: 1280px) {
-  .tax-product_cat .whb-general-header-inner {
+  .woocommerce .whb-general-header-inner,
+  .search .whb-general-header-inner {
     width: 105%!important;
   }
 }
+@media screen and (min-width: 1366px) {
+  .woocommerce .whb-general-header-inner,
+  .search .whb-general-header-inner {
+    width: 109%!important;
+  }
+}
 @media screen and (min-width: 1400px) {
-  .tax-product_cat .whb-general-header-inner {
+  .woocommerce .whb-general-header-inner,
+  .search .whb-general-header-inner {
     width: 111%!important;
   }
 }
 @media screen and (min-width: 1500px) {
-  .tax-product_cat .whb-general-header-inner {
+  .woocommerce .whb-general-header-inner,
+  .search .whb-general-header-inner {
+    width: 114%!important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .woocommerce .whb-general-header-inner,
+  .search .whb-general-header-inner {
     width: 117%!important;
   }
 }
 @media screen and (min-width: 1660px) {
-  .tax-product_cat .whb-general-header-inner {
+  .woocommerce .whb-general-header-inner,
+  .search .whb-general-header-inner {
     width: 121%!important;
   }
 }
 @media screen and (min-width: 1700px) {
-  .tax-product_cat .whb-general-header-inner {
+  .woocommerce .whb-general-header-inner,
+  .search .whb-general-header-inner {
     width: 126%!important;
   }
 }
 @media screen and (min-width: 1900px) {
-  .tax-product_cat .whb-general-header-inner {
+  .woocommerce .whb-general-header-inner,
+  .search .whb-general-header-inner {
     width: 131%!important;
   }
 }
 @media screen and (min-width: 2000px) {
-  .tax-product_cat .whb-general-header-inner {
+  .woocommerce .whb-general-header-inner,
+  .search .whb-general-header-inner {
     width: 139%!important;
   }
 }
@@ -658,9 +678,6 @@ h2 {
   }
   #vision {
     background-color: #f4f2f2;
-  }
-  #slider {
-    background: url(../img/slider_responsive.png) no-repeat center;
   }
   #slider h1,
   #slider p,
